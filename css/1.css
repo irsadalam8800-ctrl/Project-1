@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.mainbox {
+
+    width: 600px;
+    margin: 0px auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.container {
+    border: 1px red solid;
+
+}
+
+.textcontainer {
+    float: left;
+}
+
+/* .bigcon{
+    display: flex;
+   } */
+.nav {
+    width: 100%;
+    height: 50px;
+
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav img {
+    padding-right: 4px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+}
+
+.textbox {
+    /* background-color: yellowgreen; */
+    margin-left: 10px;
+
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    color: red;
+}
+
+h4 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 74, 74);
+}
+
+.line {
+    width: 70%;
+    height: 2px;
+    /* background-color: black; */
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+h5 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: red;
+}
+
+.line1 {
+    width: 70%;
+    height: 2px;
+    /* background-color: black; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h6 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 23px;
+    border-radius: 200px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.girlpic {
+    float: right;
+    width: 320px;
+
+}
+
+.girlpic img {
+    max-width: 100%;
+}
+
+.nav2 {
+    width: 70%;
+    height: 50px;
+    background-color: red;
+    color: white;
+}
+
+.nav2 {
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbox {
+    width:70%;
+    height: 205px;
+    border: 1px solid red;
+    margin: auto;
+    padding-top: 5px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 25px;
+    
+   
+}
+.topbox{
+    display: flex;
+}
+
+.right1{
+    width: 140px;
+    height: 90px;
+    border-right: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    font-size: 13PX;
+     }
+     h8{
+        padding-top: 3px;
+     }
+   
+    .right2{
+        width: 140px;
+    height: 90px;
+    border-right: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    font-size: 13PX; 
+    }
+    h9{
+        padding-top: 3px;
+    }
+    .right3{
+        width: 140px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    font-size: 13PX;
+    }
+    h10{
+        padding-top: 3px; 
+    }
+    .hr2{
+        width: 90%;
+        height: 1px;
+        position: absolute;
+        top: 110px;
+        left: 14px;
+        border: none;
+       background-color: red;
+    }
+    .downbox{
+         display: flex; 
+         justify-content: center;
+         align-items: center;
+    }
+    .right4{
+        width: 160px;
+    height: 90px;
+     border-right: 1px solid red; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13PX;
+    }
+    .right5{
+         width: 160px;
+    height: 90px;
+     /* border-right: 1px solid red;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13PX;
+    }
+    .foot{
+        width: 600px;
+        height: 35px;
+        background-color: red;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    .blankbox{
+        height: 20px;
+        background-color:none;
+    }
+   
+
